@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+}
+
+body {
+  
+}
+
+main {
+    background-image: url(img/fundo_mobile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #4C545C;
+    margin-top: 64px;
+}
+
+p {
+    color: #9EABB2;
+    margin-top: 16px;
+}
+
+.btn-main {
+    gap: 24px;
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-iOS {
+    background-color: #5DCCBB;
+    color: white;
+    border-radius: 28px;
+    height: 56px;
+    width: 318px;
+    border: none;
+    border-bottom: 3px #1ea591 solid;
+}
+
+.btn-Mac {
+    background-color: #6174FF;
+    color: white;
+    border-radius: 28px;
+    height: 56px;
+    width: 318px;
+    border: none;
+    border-bottom: 3px #4454cc solid;
+}
+
+/* DESKTOP */
+@media (min-width: 1300px) {
+ 
+    .text-preset1 {
+        font-size: 46px;
+        line-height: 125%;
+        letter-spacing: -0.75px;
+        font-weight: 600;
+    }
+
+    .text-preset3 {
+        font-size: 36px;
+        line-height: 125%;
+        letter-spacing: -0.6px;
+        font-weight: 600;
+    }
+
+    .text-preset7 {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+    }
+
+    .text-preset7-regular {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        font-weight: 400;
+    }
+
+    .text-preset6 {
+        font-size: 24px;
+        line-height: 125%;
+        letter-spacing: -0.4px;
+        font-weight: 600;
+    }
+
+    .text-preset8 {
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        font-weight: 400;
+    }
+}
+
+/* TABLET */
+@media (min-width: 500px) and (max-width: 1299px) {
+
+    .text-preset7 {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+    }
+
+    .text-preset2 {
+        font-size: 40px;
+        line-height: 125%;
+        letter-spacing: -0.75px;
+        font-weight: 600;
+    }
+
+    .text-preset6 {
+        font-size: 24px;
+        line-height: 125%;
+        letter-spacing: -0.4px;
+        font-weight: 600;
+    }
+
+    .text-preset7-regular {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        font-weight: 400;
+    }
+
+    .text-preset3 {
+        font-size: 36px;
+        line-height: 125%;
+        letter-spacing: -0.6px;
+        font-weight: 600;
+    }
+
+    .text-preset8 {
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        font-weight: 400;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 500px) {
+
+    .text-preset4 {
+        font-size: 32px;
+        line-height: 125%;
+        letter-spacing: -0.5px;
+        font-weight: 600;
+    }
+
+    .text-preset5 {
+        font-size: 28px;
+        line-height: 125%;
+        letter-spacing: -0.5px;
+        font-weight: 600;
+    }
+
+    .text-preset6 {
+        font-size: 24px;
+        line-height: 125%;
+        letter-spacing: -0.4px;
+        font-weight: 600;
+    }
+
+    .text-preset7 {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+    }
+
+    .text-preset7-regular {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        font-weight: 400;
+    }
+
+    .text-preset8 {
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+        font-weight: 400;
+    }
+}
+
+.beneficiosgeral{
+    margin-top: 92px;
+}
+
+.beneficios_conteudo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.lista_beneficio{
+    margin-right: 263px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 64px;
+    width: 350px;
+}
+
+.section_txt2{
+    margin-top: 150px;
+    margin-bottom: 96px;
+    
+}
+
