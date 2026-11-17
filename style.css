@@ -287,6 +287,74 @@ p {
     flex-wrap: wrap;
 }
 
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 160px;
+    margin-bottom: 146.77px;
+    text-align: center;
+}
+
+.btn-download {
+    margin-top: 48px;
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #F5F6F8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.mini_logo {
+    width: 55px;
+    height: auto;
+}
+
+.links_elogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 78px;
+}
+
+.links {
+    display: flex;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+
+.links div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.links a {
+    color: #4C545C;
+    text-decoration: none;
+}
+
+address {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+address img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
 @media (max-width: 500px) {
     .lista_beneficio {
         display: flex;
@@ -366,76 +434,90 @@ p {
     text-align: center;
     margin-bottom: 32px;
     }
+
+    address{
+        margin-bottom: 25.5px;
+    }
 }
 
 @media (min-width: 500px) and (max-width: 1299px) {
+    .lista_beneficio {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 96px;
+    }
 
-}
+    main,
+    .corpo {
+        padding: 72px;
+    }
 
-.download {
+    body {
+        display: flex;
+        flex-direction: column;
+        background-image: url(img/fundo_mobile.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .acessar picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25px;
+    }
+
+    .parceiros {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 78px;
+    }
+
+    .beneficiosgeral picture {
+        margin: 0 auto;
+    }
+
+    .section_txt2 {
+        margin-top: 177px;
+        margin-bottom: 72px;
+    }
+
+    .section_txt3 {
+        margin-top: 129.44px;
+        margin-bottom: 88px;
+    }
+
+    .btn-download {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .links_elogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 32px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .links {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    margin-top: 160px;
-    margin-bottom: 146.77px;
+    align-items: center;
     text-align: center;
-}
+    margin-bottom: 32px;
+    }
 
-.btn-download {
-    margin-top: 48px;
-    gap: 24px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-footer {
-    background-color: #F5F6F8;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px 40px;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.mini_logo {
-    width: 55px;
-    height: auto;
-}
-
-.links_elogo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 78px;
-}
-
-.links {
-    display: flex;
-    gap: 64px;
-    flex-wrap: wrap;
-}
-
-.links div {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.links a {
-    color: #4C545C;
-    text-decoration: none;
-}
-
-address {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-address img {
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
+    address{
+        margin-bottom: 25.5px;
+    }
 }
