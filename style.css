@@ -3,11 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
-    
-}
-
-body {
-  
 }
 
 main {
@@ -23,7 +18,7 @@ main {
     text-align: center;
 }
 
-.logo{
+.logo {
     margin-top: 100px;
 }
 
@@ -32,9 +27,12 @@ h1 {
     margin-top: 64px;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     color: #4C545C;
 }
+
 p {
     color: #9EABB2;
     margin-top: 16px;
@@ -47,7 +45,7 @@ p {
     flex-wrap: wrap;
 }
 
-.btn-main button{
+.btn-main button {
     margin: auto;
 }
 
@@ -61,6 +59,13 @@ p {
     border-bottom: 3px #1ea591 solid;
 }
 
+.btn-iOS:active {
+    background-color: rgb(3, 121, 121);
+    color: white;
+    transform: translateY(3px);
+    box-shadow: 0 0px 0 #5DCCBB;
+}
+
 .btn-Mac {
     background-color: #6174FF;
     color: white;
@@ -71,9 +76,16 @@ p {
     border-bottom: 3px #4454cc solid;
 }
 
+.btn-Mac:active {
+    background-color: #4454cc;
+    color: white;
+    transform: translateY(3px);
+    box-shadow: 0 0px 0 #6174FF;
+}
+
 /* DESKTOP */
 @media (min-width: 1300px) {
- 
+
     .text-preset1 {
         font-size: 46px;
         line-height: 125%;
@@ -209,12 +221,12 @@ p {
     }
 }
 
-.beneficiosgeral{
+.beneficiosgeral {
     margin-top: 92px;
     text-align: center;
 }
 
-.beneficios_conteudo{
+.beneficios_conteudo {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -222,7 +234,7 @@ p {
     margin-top: 64px;
 }
 
-.lista_beneficio{
+.lista_beneficio {
     margin-right: 263px;
     display: flex;
     align-items: center;
@@ -232,20 +244,25 @@ p {
     width: 350px;
 }
 
-.section_txt2{
+.section_txt2 {
     margin-top: 150px;
     margin-bottom: 96px;
 }
 
-.acessar{
+.section_txt3 {
+    margin-top: 170px;
+    margin-bottom: 72px;
+}
+
+.acessar {
     text-align: center;
 }
 
-.funcionalidade{
+.funcionalidade {
     text-align: center;
 }
 
-.section_funcionalidades{
+.section_funcionalidades {
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
@@ -253,15 +270,15 @@ p {
     align-items: center;
 }
 
-.section_funcionalidades section{
+.section_funcionalidades section {
     width: 350px;
 }
 
-.img_func{
+.img_func {
     margin-bottom: 40px;
 }
 
-.parceiros{
+.parceiros {
     margin-top: 170px;
     display: flex;
     justify-content: center;
@@ -270,32 +287,102 @@ p {
     flex-wrap: wrap;
 }
 
-@media (max-width: 500px){
-    .lista_beneficio{
+@media (max-width: 500px) {
+    .lista_beneficio {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+        margin-top: 72px;
     }
-     main, .corpo{
+
+    main,
+    .corpo {
         padding: 32px;
     }
-    body{
+
+    body {
         display: flex;
         flex-direction: column;
-        width: 100vw;
+        background-image: url(img/fundo_mobile.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .acessar picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25px;
+    }
+
+    .parceiros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .beneficiosgeral picture {
+        margin: 0 auto;
+    }
+
+    .section_txt2 {
+        margin-top: 177px;
+        margin-bottom: 72px;
+    }
+
+    .section_txt3 {
+        margin-top: 129.44px;
+        margin-bottom: 88px;
+    }
+
+    .btn-download {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .btn-iOS,
+    .btn-Mac {
+        width: 311px;
+    }
+
+    .links_elogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+   .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 32px;
     }
 }
 
-.download{
+@media (min-width: 500px) and (max-width: 1299px) {
+
+}
+
+.download {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 160px;
     margin-bottom: 146.77px;
+    text-align: center;
 }
 
-.btn-download{
+.btn-download {
     margin-top: 48px;
     gap: 24px;
     display: flex;
@@ -317,24 +404,28 @@ footer {
     height: auto;
 }
 
+.links_elogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 78px;
+}
+
 .links {
     display: flex;
-    gap: 50px;
+    gap: 64px;
     flex-wrap: wrap;
 }
 
 .links div {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .links a {
     color: #4C545C;
     text-decoration: none;
-   display: flex;
-   flex-wrap: wrap;
 }
 
 address {
@@ -343,7 +434,7 @@ address {
     gap: 20px;
 }
 
-address img{
+address img {
     width: 20px;
     height: 20px;
     object-fit: contain;
