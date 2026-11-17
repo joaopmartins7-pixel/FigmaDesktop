@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
-    text-align: center;
+    
 }
 
 body {
@@ -11,15 +11,20 @@ body {
 }
 
 main {
-    background-image: url(img/fundo_mobile.png);
+    background-image: url(img/fundo_desk.png);
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: top;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-self: center;
-    margin-top: 50px;
+    justify-content: center;
+    background-size: contain;
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 100px;
 }
 
 h1 {
@@ -27,6 +32,9 @@ h1 {
     margin-top: 64px;
 }
 
+h1, h2, h3{
+    color: #4C545C;
+}
 p {
     color: #9EABB2;
     margin-top: 16px;
@@ -36,7 +44,11 @@ p {
     gap: 24px;
     margin-top: 56px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.btn-main button{
+    margin: auto;
 }
 
 .btn-iOS {
@@ -44,7 +56,7 @@ p {
     color: white;
     border-radius: 28px;
     height: 56px;
-    width: 318px;
+    width: 250px;
     border: none;
     border-bottom: 3px #1ea591 solid;
 }
@@ -54,7 +66,7 @@ p {
     color: white;
     border-radius: 28px;
     height: 56px;
-    width: 318px;
+    width: 250px;
     border: none;
     border-bottom: 3px #4454cc solid;
 }
@@ -199,6 +211,7 @@ p {
 
 .beneficiosgeral{
     margin-top: 92px;
+    text-align: center;
 }
 
 .beneficios_conteudo{
@@ -222,6 +235,116 @@ p {
 .section_txt2{
     margin-top: 150px;
     margin-bottom: 96px;
-    
 }
 
+.acessar{
+    text-align: center;
+}
+
+.funcionalidade{
+    text-align: center;
+}
+
+.section_funcionalidades{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_funcionalidades section{
+    width: 350px;
+}
+
+.img_func{
+    margin-bottom: 40px;
+}
+
+.parceiros{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 500px){
+    .lista_beneficio{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+     main, .corpo{
+        padding: 32px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 160px;
+    margin-bottom: 146.77px;
+}
+
+.btn-download{
+    margin-top: 48px;
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #F5F6F8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.mini_logo {
+    width: 55px;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.links div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.links a {
+    color: #4C545C;
+    text-decoration: none;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+address {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+address img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
